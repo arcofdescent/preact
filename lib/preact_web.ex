@@ -23,7 +23,7 @@ defmodule PreactWeb do
 
       import Plug.Conn
       import PreactWeb.Gettext
-      alias PreactWeb.Router.Helpers, as: Routes
+      import PreactWeb.Router.Helpers
     end
   end
 
@@ -41,7 +41,7 @@ defmodule PreactWeb do
 
       import PreactWeb.ErrorHelpers
       import PreactWeb.Gettext
-      alias PreactWeb.Router.Helpers, as: Routes
+      import PreactWeb.Router.Helpers
     end
   end
 
