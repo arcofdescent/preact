@@ -1,0 +1,32 @@
+
+@import "~bootstrap/scss/bootstrap";
+@import "./colors.scss";
+
+#app {
+    padding: 0px;
+}
+
+#main {
+    padding: 30px;
+}
+
+.header {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: $background;
+}
+.header a {
+    margin-right: 12px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(240, 235, 235);
+    color: $accent;
+}
+
+.form-box {
+    margin-top: 20px;
+    border: 1px solid #999;
+    width: 400px;
+    padding: 10px;
+    background-color: #eee;
+}
